@@ -1,0 +1,36 @@
+.thanks {
+    text-align: center;
+    margin: 5rem auto 0;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    max-width: 500px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.thanks__title {
+    color: #27ae60;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.thanks__message {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.thanks__button {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.thanks__button:hover {
+    background-color: #219150;
+}

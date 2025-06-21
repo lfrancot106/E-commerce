@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    height: var(--header-height);
+}
+
+.header__logo {
+    width: 120px;
+}
+
+/* Ícono del carrito con contador */
+.header__cart {
+    font-size: 3rem;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--dark-text);
+}
+
+.header__cart-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: var(--primary);
+    color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}

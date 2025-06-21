@@ -1,0 +1,50 @@
+/* Paleta de Colores Grupo Éxito */
+:root {
+  --primary: #E2001A; /* Rojo Éxito */
+  --secondary: #0047BA; /* Azul Éxito */
+  --light-bg: #F8F8F8; /* Fondo claro */
+  --dark-text: #333333;
+  --white: #FFFFFF;
+  --header-height: 80px;
+  --footer-height: 120px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif; /* Tipografía usada por Éxito */
+  background-color: var(--light-bg);
+  color: var(--dark-text);
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Botones (Estilo Éxito) */
+button {
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #C00015; /* Rojo más oscuro */
+}
+
+/* Header/Footer (Basado en Éxito) */
+header {
+  background-color: var(--white);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+footer {
+  background-color: var(--dark-text);
+  color: var(--white);
+}

@@ -1,0 +1,49 @@
+/* ===== ESTILOS BASE (POST-NORMALIZE) ===== */
+.exito-main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  min-height: calc(100vh - var(--header-height) - var(--footer-height)); /* Ajuste dinámico */
+  background-color: var(--light-bg); /* Fondo claro (#F8F8F8) */
+}
+
+/* ===== COMPONENTES GLOBALES ===== */
+/* Botones (Estilo Éxito) */
+button {
+  cursor: pointer;
+  border: none;
+  padding: 12px 24px;
+  background-color: var(--primary); /* Rojo Éxito (#E2001A) */
+  color: var(--white);
+  border-radius: 4px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: #C00015; /* Rojo más oscuro */
+  transform: translateY(-2px);
+}
+
+/* Enlaces */
+a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: var(--secondary); /* Azul Éxito (#0047BA) */
+  text-decoration: underline;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .exito-main-content {
+    padding: 1rem;
+  }
+
+  button {
+    padding: 10px 20px; /* Botones más compactos en móviles */
+  }
+}
