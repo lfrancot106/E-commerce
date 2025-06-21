@@ -1,49 +1,44 @@
-🛍️ E-commerce App - Grupo Éxito
-
-
-
-Aplicación web moderna para tienda online desarrollada con React y Vite, que permite a los usuarios navegar productos, gestionar carritos y completar compras.
+🛍️ E-commerce App – Grupo Éxito
+Aplicación web moderna de tienda online desarrollada con React y Vite, que permite a los usuarios navegar productos, gestionar el carrito de compras y completar el proceso de pago.
 
 🚀 Características principales
-🛒 Funcionalidades del carrito
-Añadir/eliminar productos
+🛒 Carrito de compras
+Añadir y eliminar productos.
 
-Modificar cantidades
+Modificar cantidades.
 
-Persistencia con localStorage
+Persistencia con localStorage.
 
-Cálculo automático de totales
+Cálculo automático de totales.
 
 🏪 Experiencia de compra
-Catálogo de productos organizado
+Catálogo de productos organizado.
 
-Vista detallada de cada producto
+Vista detallada por producto.
 
-Checkout con formulario integrado
+Checkout con formulario integrado.
 
-Página de confirmación post-compra
+Página de confirmación post-compra.
 
-⚙️ Tecnologías clave
-React 18 para componentes interactivos
+⚙️ Tecnologías utilizadas
+React 18 – Para componentes interactivos.
 
-Vite para desarrollo ultrarrápido
+Vite – Compilación rápida y eficiente.
 
-React Router para navegación SPA
+React Router – Navegación estilo SPA.
 
-Context API para gestión de estado
+Context API – Gestión de estado global.
 
-Vitest para pruebas unitarias
+Vitest – Pruebas unitarias.
 
-🌟 Características técnicas destacadas
+🌟 Características técnicas
 🎨 Metodología BEM para CSS
-Estructura clara y mantenible de estilos
+Estructura clara y mantenible:
 
-Convención de nombres: .block__element--modifier
+.block__element--modifier
 
- Documentación con JSDoc
-Documentación completa de componentes y funciones
-
-Generación automática de docs con jsdoc
+🧾 Documentación con JSDoc
+Documentación generada automáticamente para funciones y componentes.
 
 Ejemplo:
 /**
@@ -52,106 +47,88 @@ Ejemplo:
  * @returns {Object} { cartItems, addToCart, removeFromCart, getTotal }
  */
 
-✨ Normalize.css como base de estilos
-Implementado para garantizar consistencia cross-browser
 
-Reset de estilos predeterminados para un inicio limpio
-
-📜 Documentación técnica adicional
-Para generar documentación:
+Para generar la documentación:
 npx jsdoc src -r -d docs
 
-Requisitos de documentación:
 
-Todos los componentes principales documentados
+✨ Normalize.css como base
+Estilos consistentes entre navegadores.
 
-Explicación de props y métodos
-
+Reset limpio para una base estable.
 
 🛠️ Instalación
-Clona el repositorio:
-git clone https://github.com/tu-usuario/ecommerce-exito.git
+1.Clona el repositorio:
+git clone https://github.com/lfrancot106/E-commerce.git
 
-Instala dependencias:
+2.Instala las dependencias:
 npm install
 
-Inicia el servidor de desarrollo:
+3.Inicia el servidor de desarrollo:
 npm run dev
 
 📂 Estructura del proyecto
-src
-    │   App.css
-    │   App.jsx
-    │   index.css
-    │   main.jsx
-    │
-    ├───assets
-    ├───components
-    │       BackButton.css
-    │       BackButton.jsx
-    │       Footer.css
-    │       Footer.jsx
-    │       Header.css
-    │       Header.jsx
-    │       ProductCard.css
-    │       ProductCard.jsx
-    │       SearchBar.css
-    │       SearchBar.jsx
-    │
-    ├───context
-    │       CartContext.js
-    │       CartProvider.jsx
-    │       useCart.js
-    │
-    ├───pages
-    │       CartPage.css
-    │       CartPage.jsx
-    │       Checkout.css
-    │       Checkout.jsx
-    │       Home.css
-    │       Home.jsx
-    │       NotFound.css
-    │       NotFound.jsx
-    │       Payment.css
-    │       Payment.jsx
-    │       ProductDetail.css
-    │       ProductDetail.jsx
-    │       Thanks.css
-    │       Thanks.jsx
-    │
-    └───__tests__
-            Checkout.test.jsx
-            ProductCard.test.jsx
-            ProductDetail.test.jsx
-            SearchBar.test.jsx
-            Thanks.test.jsx
+src/
+│   App.jsx
+│   main.jsx
+│   index.css
+│   App.css
+│
+├───assets/
+├───components/
+│       BackButton.jsx, Header.jsx, Footer.jsx, etc.
+├───context/
+│       CartContext.js, CartProvider.jsx, useCart.js
+├───pages/
+│       Home.jsx, CartPage.jsx, ProductDetail.jsx, Checkout.jsx, Payment.jsx, Thanks.jsx, NotFound.jsx
+├───__tests__/
+│       Checkout.test.jsx, ProductCard.test.jsx, etc.
+
 
 🧪 Testing
-Ejecuta pruebas unitarias con:
+Ejecuta las pruebas unitarias con:
 npm run test
 
+🧠 Mejoras técnicas futuras
+Migración a Next.js para renderizado del lado del servidor (SSR).
 
-Mejoras técnicas
-Migración a Next.js para SSR
+Mejoras en accesibilidad (cumplimiento con WCAG 2.1).
 
-Mejoras de accesibilidad (WCAG 2.1)
+Modularización y optimización para producción.
 
-Crea tu rama: git checkout -b mi-feature
+🧾 Contribuir
+1.Crea tu rama:
+git checkout -b mi-feature
 
-Haz commit: git commit -m 'Add amazing feature'
 
-Haz push: git push origin mi-feature
+2.Haz commit:
+git commit -m 'Add amazing feature'
 
-Abre un Pull Request
+3.Haz push:
+git push origin mi-feature
 
-📜 Licencia
+4.Abre un Pull Request.
+
+## 📜 Licencia
+
 MIT © Leonardo Fabio Franco Tangarife
 
-📬 Contacto
-📧 Email: Leonardo.franco.tangarife@gmail.com
+---
 
-💼 LinkedIn: https://www.linkedin.com/in/leonardo-franco-395769261/
+## ⚠️ Importante
 
-🐙 GitHub: https://github.com/lfrancot106
+> Este proyecto fue desarrollado como parte de una **prueba técnica** para el proceso de selección en **Grupo Éxito**.  
+> El estilo visual, colores y logotipo utilizados pertenecen a **Grupo Éxito**. No reclamo ningún derecho sobre dichos elementos, y la empresa es libre de usar, modificar o desechar este proyecto según lo considere apropiado.
 
-Este proyecto fue creado como demostración técnica para Grupo Éxito
+⚠️ Important
+This project was developed as part of a technical assessment for the recruitment process at Grupo Éxito.
+The visual style, color palette, and logo used in this project belong to Grupo Éxito. I do not claim any ownership over these elements, and the company is free to use, modify, or discard this project as it sees fit.
+
+---
+
+## 📬 Contacto
+
+📧 Email: [leonardo.franco.tangarife@gmail.com](mailto:leonardo.franco.tangarife@gmail.com)  
+💼 LinkedIn: [linkedin.com/in/leonardo-franco-395769261](https://www.linkedin.com/in/leonardo-franco-395769261)  
+🐙 GitHub: [github.com/lfrancot106](https://github.com/lfrancot106)
+
